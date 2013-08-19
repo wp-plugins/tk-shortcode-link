@@ -15,12 +15,12 @@ Create links with a shortcode. Comes in handy in places where HTML tags aren't a
 
 Basically, just a utility plugin.
 
-**Accepts 3 parameters:**
+= Accepts 3 parameters: =
 * url
 * target (automatically adds the leading underscore)
 * class
 
-**Examples:**
+= Examples: =
 * [link url="http://www.nike.com/"]Just do it[/link]
 	* Outputs: `<a class="tklink" href="http://www.nike.com/">Just do it</a>`
 * [link url="http://www.pagelinestheme.com/" target="blank"]Open PageLinesTheme.com in a new window[/link]
@@ -28,14 +28,14 @@ Basically, just a utility plugin.
 * [link url="http://www.google.com/" class="googlie" target="parent"]A googglie Google link with parent target[/link]
 	* Outputs: `<a class="googlie" href="http://www.google.com/" target="_parent">A googglie Google link with parent target</a>`
 
-FYI:
+= FYI: =
 * All links have a class of `tklink` added unless you specify your own class per link (see examples above)
 * No styling of `tklink` or otherwise is added via this plugin.
 * If you don't know what classes are, you can ignore. It's for styling (i.e. look and feel).
 
 == Frequently Asked Questions ==
 
-= Any known incompatibilities? =
+**Any known incompatibilities?**
 
 It shouldn't conflict with any other themes or plugins and may have duplicate functionality of something else you already have.
 
