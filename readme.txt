@@ -15,12 +15,12 @@ Create links with a shortcode. Comes in handy in places where HTML tags aren't a
 
 Basically, just a utility plugin.
 
-Accepts 3 parameters:
+**Accepts 3 parameters:**
 * url
 * target (automatically adds the leading underscore)
 * class
 
-Examples:
+**Examples:**
 * [link url="http://www.nike.com/"]Just do it[/link]
 	* Outputs: `<a class="tklink" href="http://www.nike.com/">Just do it</a>`
 * [link url="http://www.pagelinestheme.com/" target="blank"]Open PageLinesTheme.com in a new window[/link]
@@ -42,9 +42,10 @@ It shouldn't conflict with any other themes or plugins and may have duplicate fu
 = What if I find an error? =
 
 Please follow these steps to troubleshoot:
+
 1. Disable all other plugins
-2. Activate either the Twenty Twelve or Twenty Thirteen WordPress theme (your choice)
-3. Enable WP_DEBUG in wp-config.php.
+1. Activate either the Twenty Twelve or Twenty Thirteen WordPress theme (your choice)
+1. Enable WP_DEBUG in wp-config.php.
 
 If you no longer have an error, your issue is not with this plugin.
 
