@@ -29,9 +29,9 @@ Basically, just a utility plugin.
 	* Outputs: `<a class="googlie" href="http://www.google.com/" target="_parent">A googglie Google link with parent target</a>`
 
 FYI:
-*All links have a class of *tklink* added unless you specify your own class per link (see examples above)
-*No styling of *tklink* or otherwise is added via this plugin.
-*If you don't know what classes are, you can ignore. It's for styling (i.e. look and feel).
+* All links have a class of `tklink` added unless you specify your own class per link (see examples above)
+* No styling of `tklink` or otherwise is added via this plugin.
+* If you don't know what classes are, you can ignore. It's for styling (i.e. look and feel).
 
 == Frequently Asked Questions ==
 
