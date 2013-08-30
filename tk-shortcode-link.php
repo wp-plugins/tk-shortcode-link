@@ -3,7 +3,7 @@
 Plugin Name: TK Shortcode Link
 Description: Create links with a shortcode
 Author: TourKick
-Version: 1.0.20130816
+Version: 1.1
 Author URI: http://tourkick.com/?utm_source=wordpressdotorg&utm_medium=tkshortcodelinkplugin&utm_content=authoruri&utm_campaign=tkshortcodelinkplugin
 License: GPLv2 (or later)
 */
@@ -40,4 +40,6 @@ function tklink_shortcode( $atts , $content = null ) {
 		return '<a class="' . $escclass . '" href="' . $url . '" target="_' . $esctarget . '">' . $content . '</a>';
 	}
 }
-add_shortcode( 'link', 'tklink_shortcode' );
+// add_shortcode( 'link', 'tklink_shortcode' );
+// conflicted with PageLines Theme ( https://github.com/pagelines/DMS/blob/Dev/includes/class.shortcodes.php#L119 )
+add_shortcode( 'tklink', 'tklink_shortcode' ); // does not conflict with PageLines
